@@ -1,23 +1,22 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-
+import ReactAudioPlayer from 'react-audio-player';
+import yezi from './assets/yezi.mp3'
+import cuiacuia from './assets/cuiacuia.png'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={cuiacuia} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+            <audio controls>
+
+                    <source src={yezi} type="audio/mpeg" />
+            </audio>
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
+
       </header>
     </div>
   );
