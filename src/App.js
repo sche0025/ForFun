@@ -4,11 +4,12 @@ import './App.css';
 import ReactAudioPlayer from 'react-audio-player';
 import yezi from './assets/yezi.mp3'
 import cuiacuia from './assets/cuiacuia.png'
+import java from './assets/java.png'
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={cuiacuia} className="App-logo" alt="logo" />
+        <img src={java} className="App-logo" alt="logo" />
         <p>
             <audio controls>
 
